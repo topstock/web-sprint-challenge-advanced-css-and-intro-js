@@ -146,42 +146,73 @@ button:hover{
 @media(max-width: 500px){
 
     *{
-        width: 100%;
-        margin: 0px;
+       
     }
-
-    .title-container div {	
-        justify-content: flex-end;
-    }
-
-    h1{
-        line-height: 1.2;
-        font-size: 4rem; 
-    }
-
     nav {
         margin: 5% 0;
+    }
+
+    nav a {
+        font-size: 2rem;
+    }
+    nav span{
+        align-self: center;
+        height: 4vw;
+    }
+    
+    .title-container div {	
+        height: 58vw;
+        justify-content: flex-end;
     }
 
     .title-container div {
         margin: 0px;
         width: 100%;
-        flex-direction: column;
-        justify-items:flex-end;
+    }
+
+    .title-container hr{
+        width:100%;
+        margin: 3vw 0;
+    }
+    
+    h1 {
+        line-height: 1.2;
+        font-size: 3.5rem;
+        font-weight: 600; 
+    }
+
+    button {
+        border-color: gray;
+        padding: 2%;
+        font-size: 1.2rem;
+        width: 25%;
+        color: rgb(77, 77, 77);
+        margin: 1% auto;
+        margin-bottom: 12vw;
+        border-radius: 3px;
     }
 
     .artists-container {
+        width: 53%;
         flex-direction: column;
+        align-items: flex-start;
+        margin: 0px auto;
     }
     
-    .artists-container *{
+    .artists-container * {
         width: 100%;
+        margin-left: auto;
     }
-    
-    button {
-        width: 27%;
-        margin: 3% auto;
-        margin-bottom: 15vw ;
 
+    .artist img{
+        width: 45vw;
+        margin-bottom: 5vw;
     }
-}
+    .artist a{
+        font-size: 1.6rem;
+    }
+    div.bio {
+        font-size: 1.2rem;
+        margin-bottom: 10vw;
+    }
+
