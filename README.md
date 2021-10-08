@@ -22,11 +22,28 @@ Commit your code regularly and meaningfully.
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
+1. How would you describe accessibility on the web to someone new to programming?
+
+    Answer: On the web, accessibility refers to removing disability related barriers to access to  data, tools and services.  There are economic and legal requirements for businesses to employ websites that are accessible to people with vision, hearing, neural, and physical limitations.  Web Content Accessibility Guidelines (WCAG) lays out rules specifying how styles and elements may conform to accessibility standards.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+     Answer: Firstly, use indicators other than color to differentiate sections, prioritized data, links, and tools. A second recommendation is to make the features just as easy to use without sound by providing text or graphic explanations or directions.  Lastly, always used fonts that contrast greatly with the background in brightness, even when the colors are opposites. 
+
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+     Answer: Variables are boxes for things like strings, objects, functions, and booleans.  The variable name represents that data like a label which keeps code neat and avoids lengthy repetition.  You can change the data, change the location of the data to another variable, or use the data in a function or method through use of the variable name.
+
 4. What is the purpose of using functions in code?
+
+    Answer:  Functions access variables and other data to send messages to other objects and sometimes to the user.  They are assigned a name that can be used to call them for DRY code.  They make it much easier to repeat a process for different objects.
+
 5. How do you access a key inside of an object inside of an array?
+
+    Answer: arrayName[objectIndex]['keyName'] or arrayName[objectIndex].keyName are interchangeable.
+            Object.keys(arrayName[objectIndex]); to get the names of the keys.
+            delete arrayName[objectIndex]['keyName']; to remove it
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -36,7 +53,7 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 Follow these steps to set up your project:
 
-1. Fork the repo
+1. Fork the reponpm 
 2. Go into canvas and connect your reop to codegrade
 3. Clone your forked version of the repo
 4. DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today
